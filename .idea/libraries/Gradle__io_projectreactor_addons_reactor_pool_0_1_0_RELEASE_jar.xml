@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor.addons:reactor-pool:0.1.0.RELEASE@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/io/projectreactor/addons/reactor-pool/0.1.0.RELEASE/reactor-pool-0.1.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alipay.android.inside:baselib:5.0.0.221@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6240b9e4f92bf26945e9304038e6e5c2/baselib-5.0.0.221/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6240b9e4f92bf26945e9304038e6e5c2/baselib-5.0.0.221/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

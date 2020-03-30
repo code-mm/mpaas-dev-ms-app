@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.alipay.apollo.baseline.config'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "org.ms.dev"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0.0"
+
+
+        multiDexEnabled true
+
+    }
+    signingConfigs {
+        release {
+            keyAlias 'ms'
+            keyPassword 'ms2020'
+            storeFile file('./ms.jks')
+            storePassword 'ms2020'
+        }
+        debug {
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        targetCompatibility = 1.8
+        sourceCompatibility = 1.8
+    }
+    packagingOptions {
+        exclude "META-INF/INDEX.LIST"
+        exclude "META-INF/io.netty.versions.properties"
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+    }
+
+}
+
+dependencies {
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    annotationProcessor "com.mpaas.mobile:metainfo-compiler:1.3.0"
+    implementation platform('com.mpaas.android:mpaas-baseline:10.1.68-1')
+    implementation 'com.mpaas.android:antui'
+    implementation 'com.mpaas.android:storage'
+    implementation 'com.mpaas.android:scan'
+    implementation 'com.mpaas.android:framework'
+    implementation 'com.mpaas.android:utdid'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+//    implementation 'io.rsocket:rsocket-core:0.10.3'
+//    implementation 'io.rsocket:rsocket-transport-netty:0.10.3'
+
+    // https://mvnrepository.com/artifact/io.rsocket/rsocket-core
+    implementation group: 'io.rsocket', name: 'rsocket-core', version: '1.0.0-RC6'
+
+// https://mvnrepository.com/artifact/io.rsocket/rsocket-transport-netty
+    implementation group: 'io.rsocket', name: 'rsocket-transport-netty', version: '1.0.0-RC6'
+
+
+    implementation "org.ms:github-graphql:latest-SNAPSHOT"
+
+    implementation "com.squareup.okhttp3:logging-interceptor:3.7.0"
+
+
+}
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ms:github-graphql:latest-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f71b65c08569ada242105d695c2b80e/github-graphql-latest-20200330.064941-3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f71b65c08569ada242105d695c2b80e/github-graphql-latest-20200330.064941-3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

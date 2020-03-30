@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alipay.android.phone.scancode:mascanengine-build:5.0.0.203@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cfd671c76d6c03f8f7df87497b04422/mascanengine-build-5.0.0.203/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0cfd671c76d6c03f8f7df87497b04422/mascanengine-build-5.0.0.203/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

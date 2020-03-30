@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alipay.android.phone.mobilesdk:logging-build:5.0.0.227@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4f22a92de42dead5053b28aa4757a41/logging-build-5.0.0.227/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4f22a92de42dead5053b28aa4757a41/logging-build-5.0.0.227/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
